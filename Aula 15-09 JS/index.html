@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Introdução JavaScript</title>
+    <script type="text/javascript" src="./js/arquivo.js"></script>
+</head>
+<body>
+    <!--Disparando Eventos-->
+    <button type="button" onclick="alert('Bem Vindo!')">Clique Aqui!</button>
+
+    <!--Atributo Global ID-->
+    <p id="paragrafo">Olá</p>
+    <button id="button" onclick="fAlterar();">Alterar</button>
+    <br><br>
+    <p><img id="imgLamp" src="./img/pic_bulboff.gif" alt=""></p>
+    <button id="btnInter" type="button" onclick="inter();">Ligar</button>
+    <br><br>
+    <fieldset>
+        <legend>Cálculos Matemáticos</legend>
+        <input type="text" id="v1">
+        <br><br>
+        <input type="text" id="v2">
+        <br><br>
+        <p id="res">Resposta: </p>
+        <button type="reset" onclick="limpar();">Limpa</button>
+        <button type="button" onclick="soma();">+</button>
+        <button type="button" onclick="subtrair();">-</button>
+        <button type="button" onclick="dividir();">÷</button>
+        <button type="button" onclick="multipilcar();">x</button>
+        <button type="button" onclick="restDiv();">R%</button>
+        <button type="button" onclick="porcentagem();">%</button>
+    </fieldset>
+</body>
+</html>
