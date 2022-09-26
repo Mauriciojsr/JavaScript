@@ -1,0 +1,31 @@
+[
+    "Segunda", 
+    "Terça", 
+    "Quarta", 
+    "Quinta", 
+    "Sexta", 
+    "Sábado", 
+    "Domingo"
+]
+
+[33, "Segunda", true, 1,76]
+
+{
+    "Segunda" : "Unochapecó", 
+    "Terça": "Folga", 
+    "Quarta" : "PM", 
+    "Quinta" : "Boxe", 
+    "Sexta" : "Mercadp", 
+    "Sábado" : "Folga"
+}
+
+"empregados":[
+    "nome": "João", "idade": 32
+]
+
+"empregados":[
+    {"nome": "João", "idade": 32}
+    {"nome": "Paulo", "idade": 42}
+    {"nome": "Josias", "idade": 33}
+    {"nome": "Marcos", "idade": 25}
+]
