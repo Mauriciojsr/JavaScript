@@ -1,0 +1,41 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(150, 175, 155);
+}
+ul{
+    list-style: none;
+}
+ul label{
+    width: 100px;
+    float: left;
+}
+#frmCadastro{
+    width: 100%;
+    border: solid;
+    border-radius: 5px;
+}
+#btnSalvar{
+    background-color: green;
+    border: 2px solid;
+    color: aliceblue;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+#tblListar{
+    width: 100%;
+    border: 2px solid;
+    text-align: left;
+    border-collapse:collapse;
+}
+#tblListar tbody tr{
+    border: 2px solid;
+    height: 30px;
+}
+#tblListar thead{
+    background: bisque;
+
+} 
+input{
+    border: 2px solid;
+    border-radius: 5px;
+}
